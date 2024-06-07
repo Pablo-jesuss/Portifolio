@@ -44,16 +44,6 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="education"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="hover:text-brightColor transition-all cursor-pointer"
-            >
-              Education
-            </Link>
-
-            <Link
               to="certificates"
               spy={true}
               smooth={true}
@@ -107,17 +97,6 @@ const Navbar = () => {
             onClick={closeMenu}
           >
             About Me
-          </Link>
-
-          <Link
-            to="education"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="hover:text-brightColor transition-all cursor-pointer"
-            onClick={closeMenu}
-          >
-            Education
           </Link>
 
           <Link

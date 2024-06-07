@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../assets/port/p01.png";
+import img2 from "../assets/port/p02.png";
 
 const Portfolio = () => {
   return (
@@ -13,9 +14,26 @@ const Portfolio = () => {
             <img
               className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
               src={img1}
-              alt="1"
+              alt=""
             />
           </a>
+          <p className=" mt-4 lg:mt-2 font-semibold text-white">
+            Quiz de programação desenvolvindo com React
+          </p>
+        </div>
+
+        <div className="w-full lg:w-1/4">
+          <a href="#">
+            <img
+              className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
+              src={img2}
+              alt=""
+            />
+          </a>
+
+          <p className=" mt-4 lg:mt-2 font-semibold text-white">
+            E-commerce com carrinho desenvolvindo com React
+          </p>
         </div>
 
         <div className="w-full lg:w-1/4">
@@ -26,6 +44,9 @@ const Portfolio = () => {
               alt="1"
             />
           </a>
+          <p className=" mt-4 lg:mt-2 font-semibold text-white">
+            Quiz de programação desenvolvindo com React
+          </p>
         </div>
 
         <div className="w-full lg:w-1/4">
@@ -36,6 +57,9 @@ const Portfolio = () => {
               alt="1"
             />
           </a>
+          <p className=" mt-4 lg:mt-2 font-semibold text-white">
+            Quiz de programação desenvolvindo com React
+          </p>
         </div>
 
         <div className="w-full lg:w-1/4">
@@ -46,6 +70,9 @@ const Portfolio = () => {
               alt="1"
             />
           </a>
+          <p className=" mt-4 lg:mt-2 font-semibold text-white">
+            Quiz de programação desenvolvindo com React
+          </p>
         </div>
 
         <div className="w-full lg:w-1/4">
@@ -56,16 +83,9 @@ const Portfolio = () => {
               alt="1"
             />
           </a>
-        </div>
-
-        <div className="w-full lg:w-1/4">
-          <a href="https://pablo-jesuss.github.io/Quiz/">
-            <img
-              className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
-              src={img1}
-              alt="1"
-            />
-          </a>
+          <p className=" mt-4 lg:mt-2 font-semibold text-white">
+            Quiz de programação desenvolvindo com React
+          </p>
         </div>
       </div>
     </div>
