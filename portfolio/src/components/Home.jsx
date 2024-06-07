@@ -21,7 +21,7 @@ const Home = () => {
         <Button title="CONTRATE-ME" />
       </div>
       <div className="mt-20">
-        <img width={600} src={img} alt="img" />
+        <img width={400} src={img} alt="img" />
       </div>
     </div>
   );
