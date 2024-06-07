@@ -11,15 +11,15 @@ const About = () => {
   return (
     <div className=" min-h-screen flex flex-col justify-around lg:gap-8 lg:px-32 px-5 bg-backgroundColor">
       <div className=" mt-16">
-        <h1 className=" text-5xl font-semibold text-center lg:mt-2 text-red-600">
+        <h1 className=" text-6xl font-semibold text-center lg:mt-2 text-red-600">
           About Me
         </h1>
       </div>
 
       <div className=" -mt-10">
         <div className=" mb-10">
-          <h2 className=" text-3xl font-semibold">Pablo Henrique</h2>
-          <p className=" mt-4 lg:mt-2 font-semibold">
+          <h2 className=" text-3xl font-semibold text-white">Pablo Henrique</h2>
+          <p className=" mt-4 lg:mt-2 font-semibold text-white">
             Sou um desenvolvedor front-end apaixonado, com experiência em criar
             interfaces de usuário atraentes e funcionais. Minhas habilidades
             incluem:
@@ -29,7 +29,7 @@ const About = () => {
         <div>
           <h2 className=" text-3xl font-semibold text-red-600 ">My Skills</h2>
 
-          <div>
+          <div className="text-white font-semibold">
             <SkillCard title="Html" width={skill1} val="90%" />
             <SkillCard title="CSS (Sass/SCSS)" width={skill1} val="90%" />
             <SkillCard title="JavaScript" width={skill2} val="85%" />

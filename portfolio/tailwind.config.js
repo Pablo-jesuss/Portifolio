@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         brightColor: "red",
-        backgroundColor: "#FCFCFC",
+        backgroundColor: "#222",
       },
     },
   },
