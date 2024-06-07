@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../assets/certificate/img01.png";
 import img2 from "../assets/certificate/img02.png";
-import img3 from "../assets/certificate/img03.png";
+import img4 from "../assets/certificate/img4.png";
 
 const Certificates = () => {
   return (
@@ -29,7 +29,7 @@ const Certificates = () => {
         <div className="w-full lg:w-1/4">
           <img
             className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
-            src={img3}
+            src={img4}
             alt=""
           />
         </div>

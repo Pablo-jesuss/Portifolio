@@ -5,6 +5,7 @@ import About from "./components/About";
 import Education from "./components/Education";
 import Certificates from "./components/Certificates";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
           <Portfolio />
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }
